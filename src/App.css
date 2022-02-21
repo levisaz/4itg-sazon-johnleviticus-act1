@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    min-height: 100%;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    display: grid;
+    flex-grow: 1;
+    flex-direction: column;
+    min-height: 100%;
+    line-height: 1.6;
+    grid: auto / 1em 1f 1em;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
 }
 
-.App-link {
-  color: #61dafb;
+.col-4 {
+    background-color: #494e5f;
+    color: #ffe7d4;
+    padding-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-4 hr {
+    background-color: #ffe7d4;
+    height: 3px;
+}
+
+.col-8 {
+    color: #494e5f;
+    padding-right: 0;
+    padding-left: 5%;
+}
+
+.about {
+    width: 100%;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 10%;
+    /* to fit into div */
+    word-wrap: break-word;
+}
+
+.pfp {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+.about h2,
+.about h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about h6 {
+    line-height: 18pt;
+}
+
+.about p,
+.about ul {
+    color: white;
+    font-weight: 200;
+    text-align: justify!important;
+}
+
+i {
+    padding-right: 15px;
+}
+
+.head {
+    width: 100%;
+    max-width: 1000px;
+    word-wrap: break-word;
+    min-width: 50px;
+}
+
+.head p {
+    font-weight: 200;
+    text-align: left;
+}
+
+.head h6 {
+    width: 300px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+.header {
+    background-color: #ffe7d4;
+    width: 50%;
+    height: auto;
+    text-transform: uppercase;
+    padding: 10px;
+    max-width: 300px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.h6-educ {
+    margin-bottom: 10px!important;
+    font-weight: bold!important;
+}
+
+.head li {
+    font-style: italic;
+    text-align: justify;
 }
