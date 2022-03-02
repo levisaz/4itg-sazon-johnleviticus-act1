@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/4itg-sazon-johnleviticus-act1/static/css/main.f98a1407.css",
+    "main.js": "/4itg-sazon-johnleviticus-act1/static/js/main.cdd0e0c3.js",
+    "static/media/profile-pic.png": "/4itg-sazon-johnleviticus-act1/static/media/profile-pic.c0ab3b532301d47a6d15.png",
+    "static/media/comptia-logo.png": "/4itg-sazon-johnleviticus-act1/static/media/comptia-logo.40a131670f851c5f21ef.png",
+    "index.html": "/4itg-sazon-johnleviticus-act1/index.html",
+    "main.f98a1407.css.map": "/4itg-sazon-johnleviticus-act1/static/css/main.f98a1407.css.map",
+    "main.cdd0e0c3.js.map": "/4itg-sazon-johnleviticus-act1/static/js/main.cdd0e0c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f98a1407.css",
+    "static/js/main.cdd0e0c3.js"
+  ]
+}
